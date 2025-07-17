@@ -1,0 +1,48 @@
+
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#main{
+    width: 12cm;
+    height: 15cm;
+    border: 2px solid black;
+    overflow: hidden;
+}
+#display{
+    display: flex;
+    background-color: gray;
+    padding: 2px;
+    font-size: xx-large;
+    font-weight: 500;
+    align-items: end;
+    justify-content: end;
+    height: 4cm;
+
+}
+#keys{
+    display: flex;
+
+}
+.nums{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 9cm;
+}
+.opps{
+    flex-flow: column wrap;
+    width: 3cm;
+}
+button{
+    width: 3cm;
+    height: calc(11cm/4);
+    font-size: x-large;
+    font-weight: 600;
+}
