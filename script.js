@@ -89,7 +89,7 @@ buttons[`=`] = document.createElement("button");
         display.appendChild(document.createTextNode(buttons[`=`].textContent))
         display.innerHTML = "";
         display.appendChild(document.createTextNode(operate(numbers["var1"],numbers["var2"],operation)))
-        numbers["var1"]="";
+        numbers["var1"]=operate(numbers["var1"],numbers["var2"],operation);
         numbers["var2"]="";
         operation="";
         flag=1;
