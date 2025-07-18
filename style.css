@@ -16,9 +16,10 @@ body{
 }
 #display{
     display: flex;
-    background-color: gray;
+    background-color: #4B4B4B;
+    color: white;
     padding: 2px;
-    font-size: xx-large;
+    font-size: 50px;
     font-weight: 500;
     align-items: end;
     justify-content: end;
